@@ -1,0 +1,19 @@
+{
+    "root": true,
+    "extends": ["airbnb-base", "prettier", "plugin:jest/recommended"],
+    "plugins": ["jest", "prettier"],
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "tabWidth": 4,
+                "arrowParens": "always",
+                "trailingComma": "es5",
+                "singleQuote": false
+            }
+        ],
+        "no-underscore-dangle": 0,
+        "no-restricted-syntax": 0
+    },
+    "env": { "node": true, "jest/globals": true, "es6": true }
+}
