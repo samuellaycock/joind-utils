@@ -8,8 +8,8 @@
     },
     "scripts": {},
     "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "author": "samuel.paul.laycock@gmail.com",
+    "license": "MIT",
     "devDependencies": {
         "eslint": "^5.13.0",
         "eslint-config-airbnb-base": "^13.1.0",
